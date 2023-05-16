@@ -1,0 +1,163 @@
+.baner {
+  margin: auto;
+  background-image: url(../images/banner2.png);
+  background-repeat: no-repeat;
+   height: 854px;
+  width: 1600px; 
+  text-align: right;
+  
+}
+.banner-titel {
+  /* padding-top: 170px;
+   padding-bottom: 40px;
+   padding-right: 20px;
+   font-size: 70px; */
+  position: absolute;
+  width: 525px;
+  height: 228px;
+  left: 845px;
+  top: 216px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+
+  /* Dark 01 */
+
+  color: #151414;
+}
+.description-titel {
+  /* padding-top: 1px;
+    padding-bottom: 40px;
+    padding-right: 60px; */
+  position: absolute;
+  width: 494px;
+  height: 78px;
+  left: 876px;
+  top: 468px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: right;
+
+  /* Dark 02 */
+
+  color: #444343;
+}
+.btn {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  /* line-height: 27px; */
+  background-color: #fd6e0a;
+  border: 1px;
+  position: absolute;
+  width: 160px;
+  height: 64px;
+  left: 1210px;
+  top: 578px;
+}
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  
+}
+
+.about-img {
+  max-width: 530px;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+ background-color: calc(border-radius);
+  margin-left: 214px;
+
+}
+.about-text{
+    margin-right: 324px;
+}
+.list{
+  list-style: circle;
+}
+.banner-titel h1{
+    font-size: 30%;
+}
+.description-titel{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.about-titel{
+    font-size: 30px;
+    margin-right: 320px;
+}
+
+/* my plan style */
+.gap{
+    display: flex;
+    row-gap: 10px
+    ;
+}
+.my-plan-tittel{
+    margin-top: 117px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+.img{
+    display: flex;
+}
+.skils-contsiner{
+    display: flex;
+    gap: 90px;
+    text-align: center;
+    margin-left: 540px;
+    margin-right: 229px;
+}
+/* call now style */
+.call-now{
+    background-image:url(../images/gradient2.png);
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    padding: 100px 200px;
+    margin-left: 300px;
+    margin-top: 124px;
+
+}
+.call-tittel{
+    color: #ffffff;
+    font-size: 30px;
+   /* padding-right: 700px; */
+   padding-bottom: 450px;
+   margin-right: 650px;
+
+    
+}
+.foter{
+    background-color: #151414;
+    padding: 250px 300px;
+    
+
+}
+.call{
+   background-color: #fd6e0a;
+   font-size: 15px;
+   color: #ffffff;
+   border-radius: 5px;
+   border: #ffffff;
+   padding: 15px 20px ;
+}
+.img-gap{
+    display: flex;
+}
